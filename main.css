@@ -2,6 +2,7 @@
 	font-family: font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans,Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 	font-size: 1.2em; 
 	line-height: 1.3em;
+	background: url(https://www.fg-a.com/wallpapers/white-marble-2-2018.jpg); 
 	}
 h1 {
 	font-family: 'Bitter', serif;
@@ -18,6 +19,7 @@ h2 {
  		max-width: 75vw;
  		margin-left: auto;
  		margin-right: auto;
+ 		text-align: center;
  	}
  }
  @media only screen and (min-width: 900px) {
@@ -27,6 +29,60 @@ h2 {
  		margin-left: auto;
  		margin-right: auto;
  	}
- }
+}
+body {
+	background-size: cover;
+	background-attachment: fixed;
+	background-color: lightblue;
+	margin: 0;
+}
+}
+ul {
+	list-style-type: none;
+}
+nav {
+	padding: 1em;
+	width: 100%;
+	background-color: lightgray;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
 
- 	
+html * {
+
+    box-sizing: border-box;
+}
+
+[list] ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+.pic {
+	max-width: 100%;
+}
+}
+ @media only screen and (min-width: 600px){
+ 	.pic {
+ 		max-width: 70vw;
+ 		margin-left: auto;
+ 		margin-right: auto;
+ 		float: left;
+ 	}
+ }
+ @media only screen and (min-width: 900px) {
+
+ 	.pic {
+ 		max-width: 45vw;
+ 		margin-left: auto;
+ 		margin-right: auto;
+ 		float: left;
+ 	}
+ }
+ .text {
+ 	background-color: white;
+ }
